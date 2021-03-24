@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Signup Form
+    </title>
+</head>
+
+<body bgcolor="#efefef">
+    <form action="https://www.example.com/login.php" method="POST">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p>First Name:
+                <input type="text" name="firstname" size="13" maxlength="30" placeholder="First Name" required /> Last Name:
+                <input type="text" name="lastname" size="24" maxlength="30" placeholder="Last Name" required />
+            </p>
+            <p>Password:
+                <input type="password" name="password" size="15" max="30" placeholder="Password" required/> Re-enter Password:
+                <input type="password" name="password" size="15" max="30" placeholder="Again Type Password" required/>
+            </p>
+            <p>
+                Please enter your email address:
+                <input type="email" name="email" placeholder="Email Address" required size="34" />
+            </p>
+            <p>
+                Please enter your website:
+                <input type="url" name="profile" size="40" placeholder="Enter your Website" />
+            </p>
+            <p>
+                Interests:
+                <input type="checkbox" name="interests" value="men" /> Men's Clothing
+                <input type="checkbox" name="interests" value="wmn" /> Women's Clothing
+                <input type="checkbox" name="interests" value="acc" /> Accessories
+            </p>
+            <p>
+                Date of Birth:
+                <input type="date" name="dob" />
+            </p>
+            <p>
+                Gender:
+                <input id="male" type="radio" name="gender" value="m" required/>
+                <label for="male">Male</label>
+                <label><input type="radio" name="gender" value="f" required /> Female </label>
+            </p>
+            <p>
+                Nationality:
+                <select name="countries" multiple>
+                <option value="pakistan">Pakistan</option>
+                <option value="canada">Canada</option>
+                <option value="england">England</option>
+                <option value="usa">USA</option>
+                <option value="china">China</option>
+                <option value="barzil">Brazil</option>
+                <option value="cuba">Cuba</option>
+                <option value="bangladesh">Bangladesh</option>
+            </select>
+            </p>
+            <p>
+                Upload Profile Picture:
+            </p>
+            <input type="file" name="dp" />
+            <br>
+            <input type="submit" value="Upload" />
+            <!-- <input type="submit" /> -->
+            <br><br>
+            <input type="image" src="../Images/submit.jpg" width="150" />
+            <p>
+                Comments:
+            </p>
+            <textarea name="comments" rows="5" cols="69">Enter your comments...</textarea>
+        </fieldset>
+    </form>
+</body>
+
+</html>
