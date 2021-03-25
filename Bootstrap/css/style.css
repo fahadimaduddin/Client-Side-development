@@ -1,0 +1,19 @@
+/* 
+.container-fluid{
+    padding-left: 800px;
+    height: 130px;
+    margin: auto;
+
+}
+.navbar-brand button{
+    padding-left: 50px;
+} */
+.container{
+    border: 8px solid black;
+}
+.row{
+    border: 5px solid red;
+}
+.col{
+    border: 3px solid slategrey;
+}
